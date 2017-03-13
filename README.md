@@ -1,1 +1,1 @@
-# rainbowme-theme-three
+# rainbowme-theme
