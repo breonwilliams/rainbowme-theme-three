@@ -82,6 +82,15 @@ if (!function_exists('bootstrapBasicWidgetsInit')) {
 		));
 
 		register_sidebar(array(
+			'name'          => __('Navigation bar left', 'bootstrap-basic'),
+			'id'            => 'navbar-left',
+			'before_widget' => '',
+			'after_widget'  => '',
+			'before_title'  => '',
+			'after_title'   => '',
+		));
+
+		register_sidebar(array(
 			'name'          => __('Navigation bar right', 'bootstrap-basic'),
 			'id'            => 'navbar-right',
 			'before_widget' => '',
