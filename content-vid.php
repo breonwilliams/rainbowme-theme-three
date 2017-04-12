@@ -1,4 +1,4 @@
-<li class="item col-md-4 col-sm-6 col-xs-12" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<li class="item col-md-3 col-sm-6 col-xs-12" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
 

@@ -12,15 +12,11 @@ Template Name: Videos Page
 
 get_header(''); 
 
-/**
- * determine main column size from actived sidebar
- */
-$main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
 <section class="container">
 	<div class="row">
-<?php get_sidebar('videoleft'); ?> 
-				<div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
+<?php get_sidebar('videoleft'); ?>
+				<div class="col-md-12 content-area" id="main-column">
 					<main id="main" class="site-main row" role="main">
 						<ul class="grid cs-style-3">
 						<?php
@@ -49,7 +45,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 	<?php endif; ?>
 					</main>
 				</div>
-<?php get_sidebar('videoright'); ?> 
+<?php get_sidebar('videoright'); ?>
 </div>
 </section>
 <?php get_footer(); ?> 
